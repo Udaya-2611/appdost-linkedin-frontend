@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AppDost Feed</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">AppDost LinkedIn Clone</div>
+      <div id="user-info"></div>
+      <button id="logout-btn" class="btn small">Logout</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card new-post">
+      <h3>Create post</h3>
+      <textarea id="post-text" placeholder="What's on your mind?" rows="3"></textarea>
+      <button id="post-btn" class="btn">Post</button>
+    </section>
+
+    <section id="feed" class="feed"></section>
+  </main>
+
+<script src="/script.js"></script>
+</body>
+</html>
